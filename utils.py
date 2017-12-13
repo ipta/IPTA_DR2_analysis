@@ -1,5 +1,7 @@
 from __future__ import division
 import numpy as np
+from enterprise.signals import utils
+from enterprise.signals import signal_base
 import json
 import os
 
@@ -144,3 +146,32 @@ def make_noise_files(psrname, chain, pars, outdir='noisefiles/'):
     os.system('mkdir -p {}'.format(outdir))
     with open(outdir + '/{}_noise.json'.format(psrname), 'w') as fout:
         json.dump(x, fout, sort_keys=True, indent=4, separators=(',', ': '))
+
+
+##### DMX SIGNAL #####
+
+# To use this you can do
+
+#log10_sigma = parameter.Uniform(-10, -4)
+#basis = linear_interp_basis_dm(dt=30*86400)
+#prior = dmx_ridge_prior(log10_sigma=log10_sigma)
+#dm = gp_signals.BasisGP(prior, basis, name='dmx')
+
+# linear interpolation basis in time with nu^-2 scaling
+@signal_base.function
+def linear_interp_basis_dm(toas, freqs, dt=30*86400):
+
+    # get linear interpolation basis in time
+    U, avetoas = utils.linear_interp_basis(toas, dt=dt)
+
+    # scale with radio frequency
+    Dm = (1400/freqs)**2
+
+    return U * Dm[:, None], avetoas
+
+@signal_base.function
+def dmx_ridge_prior(avetoas, log10_sigma=-7):
+    sigma = 10**log10_sigma
+    return sigma**2 * np.ones_like(avetoas)
+
+##### end DMX SIGNAL #####
