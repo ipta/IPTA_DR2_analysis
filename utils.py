@@ -15,6 +15,7 @@ class JumpProposal(object):
 
         """
         self.params = pta.params
+        self.pnames = pta.param_names
         self.npar = len(pta.params)
         self.ndim = sum(p.size or 1 for p in pta.params)
 
@@ -84,6 +85,19 @@ class JumpProposal(object):
         lqxy = param.get_logpdf(x[self.pmap[param]]) - param.get_logpdf(q[self.pmap[param]])
 
         return q, float(lqxy)
+
+    def draw_from_gwb_log_uniform_prior(self, x, iter, beta):
+
+        q = x.copy()
+        lqxy = 0
+
+        signal_name = 'red noise'
+
+        # draw parameter from signal model
+        idx = self.pnames.index('log10_A_gw')
+        q[idx] = np.random.uniform(-20, -11)
+
+        return q, 0
 
     def draw_from_ephem_prior(self, x, iter, beta):
 
