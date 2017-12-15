@@ -7,7 +7,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--burn', dest='burn', action='store',
-                    type=int, default='1000', help='Chain Directory')
+                    type=int, default='25000', help='Chain Directory')
 parser.add_argument('--chaindir', dest='chaindir', action='store',
                     type=str, default='./', help='Chain Directory')
 parser.add_argument('--saveplot', dest='saveplot', action='store_true',
