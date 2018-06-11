@@ -73,6 +73,8 @@ def combine_tim(infile, outfile):
                     if not (line.startswith('FORMAT') or
                             line.startswith('MODE') or
                             line.startswith('C')):
+                        # ensure every line ends in newline char
+                        line = line.strip() + '\n'
                         fout.write(line)
 
 
