@@ -295,8 +295,8 @@ def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True
     os.system('rm -rf {}'.format(outdir))
     os.system('mkdir -p {}'.format(outdir))
     for pname, filters in sorted(psrdict.items()):
-        parfile = indir + pname + '.par'
-        timfile = indir + pname + '.tim'
+        parfile = os.path.join(indir, '{}.par'.format(pname))
+        timfile = os.path.join(indir, '{}.tim'.format(pname))
         psr = t2.tempopulsar(parfile, timfile, maxobs=30000)
         if isinstance(frequency_filter, dict):
             ff = frequency_filter[pname]
@@ -305,8 +305,8 @@ def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True
         psr = filter_psr(psr, filters=filters, frequency_filter=ff,
                          bw=bw, dt=dt, fmax=fmax,
                          plot=plot, verbose=verbose)
-        newpar = '{}/{}.par'.format(outdir, pname)
-        newtim = '{}/{}.tim'.format(outdir, pname)
+        newpar = os.path.join(outdir, '{}.par'.format(pname))
+        newtim = os.path.join(outdir, '{}.tim'.format(pname))
         psr.savepar(newpar)
         psr.savetim(newtim)
         remove_addsat(newtim)
