@@ -302,7 +302,7 @@ def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True
             ff = frequency_filter[pname]
         else:
             ff = frequency_filter
-        psr = filter_psr(psr, filters=filters, frequency_filter=ff,
+        psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
                          bw=bw, dt=dt, fmax=fmax,
                          plot=plot, verbose=verbose)
         newpar = os.path.join(outdir, '{}.par'.format(pname))
