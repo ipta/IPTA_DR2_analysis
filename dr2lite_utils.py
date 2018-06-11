@@ -136,7 +136,10 @@ def fix_jumps(psr, verbose=True):
         psr[jpar].val = 0
 
         # run libstempo fitter to refit jumps relative to new reference
-        _ = psr.fit()
+        try:
+            _ = psr.fit()
+        except np.linalg.LinAlgError:
+            print("LinAlgError in libstempo.tempopulsar.fit(), skipping refit")
 
 
 def get_dm_bins(toas, dt=7):
