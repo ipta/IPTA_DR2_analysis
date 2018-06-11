@@ -131,7 +131,7 @@ def fix_jumps(psr, verbose=True):
         # find JUMP group with lowest weighted variance
         maxind = np.argmax([(1/psr.toaerrs[mask][np.flatnonzero(M[:, ix])]**2).sum() for ix in idx])
         jpar = psr.pars()[idx[maxind]-1]
-        if verbose: print('Setting {} as reference jump.\n'.format(jpar))
+        if verbose: print('Setting {} as reference jump.'.format(jpar))
         psr[jpar].fit = False
         psr[jpar].val = 0
 
@@ -225,7 +225,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
 
         # check for empty list (i.e. there is no multi-frequency data)
         if not idx_freq:
-            print("No multi-frequency data, returning original psr\n")
+            print("No multi-frequency data, returning original psr")
             return psr
 
         # delete
@@ -247,9 +247,9 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
     if verbose:
         print('Cutting {} TOAs'.format(np.sum(~mask)))
         if len(dpars): print('Turning off fit for {}'.format(dpars))
-        print('\n')
 
     fix_jumps(psr)
+    print('\n')
 
     if plot:
         plt.figure(figsize=(8,3))
