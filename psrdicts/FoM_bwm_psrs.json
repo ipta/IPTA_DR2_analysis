@@ -1,0 +1,605 @@
+{
+    "J0030+0451": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J0034-0534": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J0437-4715": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J0613-0200": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J0711-6830": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J0751+1807": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J0900-3144": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1012+5307": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1022+1001": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1024-0719": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1045-4509": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1455-3330": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1600-3053": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1603-7202": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1614-2230": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1640+2224": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1643-1224": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1713+0747": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1730-2304": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1744-1134": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1857+0943": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1909-3744": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J1918-0642": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1939+2134": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J1944+0907": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J2010-1323": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J2124-3358": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J2129-5721": {
+        "group": [
+            "PDFB_10CM",
+            "PDFB_20CM",
+            "PDFB_40CM",
+            "CPSR2_20CM",
+            "CPSR2_50CM",
+            "WBCORR_10CM",
+            "WBCORR_20CM"
+        ],
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J2145-0750": {
+        "group": [
+            "EFF.EBPP.1360",
+            "EFF.EBPP.1410",
+            "EFF.EBPP.2639",
+            "JBO.DFB.1400",
+            "JBO.DFB.1520",
+            "NRT.BON.1400",
+            "NRT.BON.1600",
+            "NRT.BON.2000",
+            "WSRT.P1.328",
+            "WSRT.P1.328.C",
+            "WSRT.P1.382",
+            "WSRT.P1.382.C",
+            "WSRT.P1.840",
+            "WSRT.P1.840.C",
+            "WSRT.P1.1380",
+            "WSRT.P1.1380.C",
+            "WSRT.P1.1380.1",
+            "WSRT.P1.1380.2",
+            "WSRT.P1.1380.2.C",
+            "WSRT.P1.2273.C"
+        ],
+        "pta": [
+            "EPTA"
+        ]
+    },
+    "J2317+1439": {
+        "group": [
+            "327_ASP",
+            "430_ASP",
+            "L-wide_ASP",
+            "S-wide_ASP",
+            "327_PUPPI",
+            "430_PUPPI",
+            "L-wide_PUPPI",
+            "S-wide_PUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr1_2_GASP",
+            "Rcvr_800_GUPPI",
+            "Rcvr1_2_GUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    }
+}
