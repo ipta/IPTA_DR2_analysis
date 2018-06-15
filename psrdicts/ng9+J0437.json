@@ -1,0 +1,107 @@
+{
+    "J0030+0451": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J0437-4715": {
+        "pta": [
+            "PPTA"
+        ]
+    },
+    "J0613-0200": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1012+5307": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1024-0719": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1455-3330": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1600-3053": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1614-2230": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1640+2224": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1713+0747": {
+        "f": [
+            "Rcvr1_2_GASP",
+            "Rcvr1_2_GUPPI",
+            "Rcvr_800_GASP",
+            "Rcvr_800_GUPPI",
+            "L-wide_ASP",
+            "L-wide_PUPPI",
+            "S-wide_ASP",
+            "S-wide_PUPPI"
+        ],
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1741+1351": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1744-1134": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1853+1303": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1857+0943": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1909-3744": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J1918-0642": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J2010-1323": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J2145-0750": {
+        "pta": [
+            "NANOGrav"
+        ]
+    },
+    "J2317+1439": {
+        "pta": [
+            "NANOGrav"
+        ]
+    }
+}
