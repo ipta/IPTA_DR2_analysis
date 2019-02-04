@@ -14,9 +14,13 @@ import libstempo as t2
 
 # parameters to cut from .par files
 _cut = [
-    'T2EFAC', 'T2EQUAD', 'ECORR', 'TNEF', 'TNEQ', 'TNECORR',
+    'T2EFAC', 'T2EQUAD', 'ECORR',
+    'TNEF', 'TNEQ', 'TNECORR',
+    'TNDMAmp', 'TNDMGam', 'TNDMC', 'TNSubtractDM',
+    'TNRedAmp', 'TNRedGam', 'TNRedC',
     'DMMODEL', '_DM', '_CM', 'CONSTRAIN', 'DMOFF',
-    'START', 'FINISH', 'TZRSITE'
+    'START', 'FINISH',
+    'TZRSITE', 'TZRMJD', 'TZRFRQ',
 ]
 
 def clean_par(infile, outfile):
@@ -33,12 +37,15 @@ def clean_par(infile, outfile):
     with open(infile, 'r') as fin:
         lines = fin.readlines()
 
+    hasDM1 = False
+    if any([line.startswith('DM1') for line in lines]): hasDM1 = True
+
     with open(outfile, 'w') as fout:
         for line in lines:
             if not any([line.startswith(flag) for flag in _cut]):
                 fout.write('%s'%line)
                 try:
-                    if line.split()[0] == 'DM':
+                    if not hasDM1 and line.split()[0] == 'DM':
                         fout.write('DM1 0 1\n')
                         fout.write('DM2 0 1\n')
                 except IndexError:
