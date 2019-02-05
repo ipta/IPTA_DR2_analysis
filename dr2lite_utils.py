@@ -219,6 +219,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
 
     # filter for frequency coverage
     if frequency_filter:
+        if verbose: print("Running multi-frequency filter")
         bins = get_dm_bins(psr.toas()*86400, dt=dt)
         idx_freq = []
         for bn in bins:
@@ -256,7 +257,6 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
         if len(dpars): print('Turning off fit for {}'.format(dpars))
 
     fix_jumps(psr)
-    print('\n')
 
     if plot:
         plt.figure(figsize=(8,3))
@@ -271,8 +271,10 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
     return psr
 
 
-def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True,
-                 bw=1.1, dt=7, fmax=3000, plot=False, verbose=True):
+def make_dataset(psrdict, indir, outdir='partim_filtered',
+                 frequency_filter=True, bw=1.1, dt=7, fmax=3000,
+                 tmin=0,
+                 plot=False, verbose=True):
     """make a filtered, DR2-lite style dataset of .par and .tim files
 
     :param psrdict:
@@ -293,6 +295,9 @@ def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True
     :param fmax:
         high frequency threshold (MHz) to ignore filter
         If TOA freq is greater than this, always keep
+    :param tmin:
+        minimum obstervation time to keep (yrs). No .par/.tim file is saved
+        for pulsars with shorter observation times.
     :param verbose:
         boolean flag.  If True, print notes.
     :param plot:
@@ -312,9 +317,17 @@ def make_dataset(psrdict, indir, outdir='partim_filtered', frequency_filter=True
         psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
                          bw=bw, dt=dt, fmax=fmax,
                          plot=plot, verbose=verbose)
-        newpar = os.path.join(outdir, '{}.par'.format(pname))
-        newtim = os.path.join(outdir, '{}.tim'.format(pname))
-        psr.savepar(newpar)
-        psr.savetim(newtim)
-        remove_addsat(newtim)
+        toas_keep = psr.toas()[~psr.deletedmask()]
+        Tobs = (toas_keep.max() - toas_keep.min())/365.25 # yrs
+        if Tobs > tmin:
+            newpar = os.path.join(outdir, '{}.par'.format(pname))
+            newtim = os.path.join(outdir, '{}.tim'.format(pname))
+            psr.savepar(newpar)
+            psr.savetim(newtim)
+            remove_addsat(newtim)
+        else:
+            if verbose:
+                print("skipping PSR {:}, filtered Tobs = {:.2f} yrs"
+                      .format(psr.name, Tobs))
+        print('\n')
         del psr
