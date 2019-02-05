@@ -318,13 +318,18 @@ def make_dataset(psrdict, indir, outdir='partim_filtered',
                          bw=bw, dt=dt, fmax=fmax,
                          plot=plot, verbose=verbose)
         toas_keep = psr.toas()[~psr.deletedmask()]
-        Tobs = (toas_keep.max() - toas_keep.min())/365.25 # yrs
+        try:
+            Tobs = (toas_keep.max() - toas_keep.min())/365.25 # yrs
+        except ValueError:
+            Tobs = 0
         if Tobs > tmin:
             newpar = os.path.join(outdir, '{}.par'.format(pname))
             newtim = os.path.join(outdir, '{}.tim'.format(pname))
             psr.savepar(newpar)
             psr.savetim(newtim)
             remove_addsat(newtim)
+            if verbose:
+                print("filtered Tobs = {:.2f} yrs".format(Tobs))
         else:
             if verbose:
                 print("skipping PSR {:}, filtered Tobs = {:.2f} yrs"
