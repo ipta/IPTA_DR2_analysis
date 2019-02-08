@@ -53,7 +53,7 @@ def clean_par(infile, outfile):
 
 def combine_tim(infile, outfile):
     """combine all .tim files into one super .tim file
-    
+
     :param infiles: DR2 .tim file that links to other actual .tim files
     :param outfile: output .tim file
     """
@@ -256,19 +256,22 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
         print('Cutting {} TOAs'.format(np.sum(~mask)))
         if len(dpars): print('Turning off fit for {}'.format(dpars))
 
-    fix_jumps(psr)
+    if np.sum(~mask) == psr.nobs:
+        print("Cutting all TOAs, so returning None")
+    else:
+        fix_jumps(psr)
 
-    if plot:
-        plt.figure(figsize=(8,3))
-        for pta in np.unique(psr.flagvals('pta')):
-            nix = psr.flagvals('pta') == pta
-            plt.plot(psr.toas()[nix], psr.freqs[nix], '.', label=pta)
-        plt.plot(psr.toas()[~psr.deletedmask()], psr.freqs[~psr.deletedmask()], '.',
-                 color='C3', alpha=0.3, label='filtered')
-        plt.legend(loc='best', frameon=False)
-        plt.title(psr.name)
+        if plot:
+            plt.figure(figsize=(8,3))
+            for pta in np.unique(psr.flagvals('pta')):
+                nix = psr.flagvals('pta') == pta
+                plt.plot(psr.toas()[nix], psr.freqs[nix], '.', label=pta)
+            plt.plot(psr.toas()[~psr.deletedmask()], psr.freqs[~psr.deletedmask()], '.',
+                     color='C3', alpha=0.3, label='filtered')
+            plt.legend(loc='best', frameon=False)
+            plt.title(psr.name)
 
-    return psr
+        return psr
 
 
 def make_dataset(psrdict, indir, outdir='partim_filtered',
@@ -317,22 +320,27 @@ def make_dataset(psrdict, indir, outdir='partim_filtered',
         psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
                          bw=bw, dt=dt, fmax=fmax,
                          plot=plot, verbose=verbose)
-        toas_keep = psr.toas()[~psr.deletedmask()]
-        try:
-            Tobs = (toas_keep.max() - toas_keep.min())/365.25 # yrs
-        except ValueError:
-            Tobs = 0
-        if Tobs > tmin:
-            newpar = os.path.join(outdir, '{}.par'.format(pname))
-            newtim = os.path.join(outdir, '{}.tim'.format(pname))
-            psr.savepar(newpar)
-            psr.savetim(newtim)
-            remove_addsat(newtim)
-            if verbose:
-                print("filtered Tobs = {:.2f} yrs".format(Tobs))
+
+        if psr is None:
+            print("\n")
+            pass
         else:
-            if verbose:
-                print("skipping PSR {:}, filtered Tobs = {:.2f} yrs"
-                      .format(psr.name, Tobs))
-        print('\n')
-        del psr
+            toas_keep = psr.toas()[~psr.deletedmask()]
+            try:
+                Tobs = (toas_keep.max() - toas_keep.min())/365.25 # yrs
+            except ValueError:
+                Tobs = 0
+            if Tobs > tmin:
+                newpar = os.path.join(outdir, '{}.par'.format(pname))
+                newtim = os.path.join(outdir, '{}.tim'.format(pname))
+                psr.savepar(newpar)
+                psr.savetim(newtim)
+                remove_addsat(newtim)
+                if verbose:
+                    print("filtered Tobs = {:.2f} yrs".format(Tobs))
+            else:
+                if verbose:
+                    print("skipping PSR {:}, filtered Tobs = {:.2f} yrs"
+                          .format(psr.name, Tobs))
+            print('\n')
+            del psr
