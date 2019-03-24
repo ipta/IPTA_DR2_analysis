@@ -166,8 +166,8 @@ def get_dm_bins(toas, dt=7):
             for ct in range(len(xedges)-1)]
 
 
-def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
-               fmax=3000, verbose=True, plot=False):
+def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
+               frequency_filter=True, fmax=3000, verbose=True, plot=False):
     """apply frequency coverage, PTA, and/or other flag filters to pulsar
 
     :param psr:
@@ -187,6 +187,8 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
 
         {'pta':['PPTA', 'EPTA']}
 
+    :param min_toas:
+        integer, minimum number of TOAs for a given backend before dropping
     :param frequency_filter:
         boolean flag, if true apply frequency coverage filter
     :param fmax:
@@ -240,7 +242,18 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
         idx = np.unique(np.concatenate(idx_freq))
     else:
         idx = idx_flag
-    psr.deleted[idx] = 0  # mark as "not deleted"
+    psr.deleted[idx] = 0  # mark filtered TOAs as "deleted"
+
+    # check for "orphan" backends (less than min_toas obsv.)
+    orphans = []
+    for gr in np.unique(psr.flagvals('group')):
+        in_group = [gr == b for b in psr.flagvals('group')]
+        mask = np.logical_and(in_group, ~psr.deletedmask())
+        N = np.sum(mask)
+        if N>0 and N<min_toas:
+            psr.deleted[mask] = True
+            orphans.append([gr, N])
+    if verbose: print("backends marked as 'orphan': {}".format(ophans))
 
     # filter design matrix
     mask = np.logical_not(psr.deleted)
