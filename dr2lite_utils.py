@@ -253,7 +253,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
         if N>0 and N<min_toas:
             psr.deleted[mask] = True
             orphans.append([gr, N])
-    if verbose: print("backends marked as 'orphan': {}".format(ophans))
+    if verbose: print("backends marked as 'orphan': {}".format(orphans))
 
     # filter design matrix
     mask = np.logical_not(psr.deleted)
@@ -286,7 +286,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
 
 def make_dataset(psrdict, indir, outdir='partim_filtered',
                  frequency_filter=True, bw=1.1, dt=7, fmax=3000,
-                 tmin=0,
+                 tmin=0, min_toas=0,
                  plot=False, verbose=True):
     """make a filtered, DR2-lite style dataset of .par and .tim files
 
@@ -328,7 +328,7 @@ def make_dataset(psrdict, indir, outdir='partim_filtered',
         else:
             ff = frequency_filter
         psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
-                         bw=bw, dt=dt, fmax=fmax,
+                         bw=bw, dt=dt, fmax=fmax, min_toas=min_toas,
                          plot=plot, verbose=verbose)
         toas_keep = psr.toas()[~psr.deletedmask()]
         try:
