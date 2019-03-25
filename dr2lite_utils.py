@@ -53,7 +53,7 @@ def clean_par(infile, outfile):
 
 def combine_tim(infile, outfile):
     """combine all .tim files into one super .tim file
-    
+
     :param infiles: DR2 .tim file that links to other actual .tim files
     :param outfile: output .tim file
     """
@@ -138,15 +138,19 @@ def fix_jumps(psr, verbose=True):
         # find JUMP group with lowest weighted variance
         maxind = np.argmax([(1/psr.toaerrs[mask][np.flatnonzero(M[:, ix])]**2).sum() for ix in idx])
         jpar = psr.pars()[idx[maxind]-1]
+        ref = psr[jpar].val  # original jump val
         if verbose: print('Setting {} as reference jump.'.format(jpar))
         psr[jpar].fit = False
         psr[jpar].val = 0
 
-        # run libstempo fitter to refit jumps relative to new reference
-        try:
-            _ = psr.fit()
-        except np.linalg.LinAlgError:
-            print("LinAlgError in libstempo.tempopulsar.fit(), skipping refit")
+        # get remaining JUMPS (need to be refit)
+        idx = [ct for ct, p in enumerate(psr.pars()) if 'JUMP' in p]
+
+        # manually re-reference each jump
+        for ix in idx:
+            this_par = psr.pars()[ix]
+            if psr[this_par].fit:
+                psr[this_par].val -= ref
 
 
 def get_dm_bins(toas, dt=7):
