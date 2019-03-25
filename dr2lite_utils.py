@@ -253,10 +253,14 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
         if N>0 and N<min_toas:
             psr.deleted[mask] = True
             orphans.append([gr, N])
-    if verbose: print("backends marked as 'orphan': {}".format(orphans))
+    if verbose and len(orphans): print("backends marked as 'orphan': {}".format(orphans))
 
     # filter design matrix
     mask = np.logical_not(psr.deleted)
+    if not sum(mask):
+        print("all TOAs cut, returning original psr")
+        return psr
+
     M = psr.designmatrix()[mask, :]
     dpars = []
     for ct, (par, val) in enumerate(zip(psr.pars(), M.sum(axis=0)[1:])):
