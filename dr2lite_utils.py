@@ -138,15 +138,19 @@ def fix_jumps(psr, verbose=True):
         # find JUMP group with lowest weighted variance
         maxind = np.argmax([(1/psr.toaerrs[mask][np.flatnonzero(M[:, ix])]**2).sum() for ix in idx])
         jpar = psr.pars()[idx[maxind]-1]
+        ref = psr[jpar].val  # original jump val
         if verbose: print('Setting {} as reference jump.'.format(jpar))
         psr[jpar].fit = False
         psr[jpar].val = 0
 
-        # run libstempo fitter to refit jumps relative to new reference
-        try:
-            _ = psr.fit()
-        except np.linalg.LinAlgError:
-            print("LinAlgError in libstempo.tempopulsar.fit(), skipping refit")
+        # get remaining JUMPS (need to be refit)
+        idx = [ct for ct, p in enumerate(psr.pars()) if 'JUMP' in p]
+
+        # manually re-reference each jump
+        for ix in idx:
+            this_par = psr.pars()[ix]
+            if psr[this_par].fit:
+                psr[this_par].val -= ref
 
 
 def get_dm_bins(toas, dt=7):
@@ -166,8 +170,8 @@ def get_dm_bins(toas, dt=7):
             for ct in range(len(xedges)-1)]
 
 
-def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
-               fmax=3000, verbose=True, plot=False):
+def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
+               frequency_filter=True, fmax=3000, verbose=True, plot=False):
     """apply frequency coverage, PTA, and/or other flag filters to pulsar
 
     :param psr:
@@ -187,6 +191,8 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
 
         {'pta':['PPTA', 'EPTA']}
 
+    :param min_toas:
+        integer, minimum number of TOAs for a given backend before dropping
     :param frequency_filter:
         boolean flag, if true apply frequency coverage filter
     :param fmax:
@@ -240,10 +246,25 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
         idx = np.unique(np.concatenate(idx_freq))
     else:
         idx = idx_flag
-    psr.deleted[idx] = 0  # mark as "not deleted"
+    psr.deleted[idx] = 0  # mark filtered TOAs as "deleted"
+
+    # check for "orphan" backends (less than min_toas obsv.)
+    orphans = []
+    for gr in np.unique(psr.flagvals('group')):
+        in_group = [gr == b for b in psr.flagvals('group')]
+        mask = np.logical_and(in_group, ~psr.deletedmask())
+        N = np.sum(mask)
+        if N>0 and N<min_toas:
+            psr.deleted[mask] = True
+            orphans.append([gr, N])
+    if verbose and len(orphans): print("backends marked as 'orphan': {}".format(orphans))
 
     # filter design matrix
     mask = np.logical_not(psr.deleted)
+    if not sum(mask):
+        print("all TOAs cut, returning original psr")
+        return psr
+
     M = psr.designmatrix()[mask, :]
     dpars = []
     for ct, (par, val) in enumerate(zip(psr.pars(), M.sum(axis=0)[1:])):
@@ -276,7 +297,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, frequency_filter=True,
 
 def make_dataset(psrdict, indir, outdir='partim_filtered',
                  frequency_filter=True, bw=1.1, dt=7, fmax=3000,
-                 tmin=0,
+                 tmin=0, min_toas=0,
                  plot=False, verbose=True):
     """make a filtered, DR2-lite style dataset of .par and .tim files
 
@@ -318,7 +339,7 @@ def make_dataset(psrdict, indir, outdir='partim_filtered',
         else:
             ff = frequency_filter
         psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
-                         bw=bw, dt=dt, fmax=fmax,
+                         bw=bw, dt=dt, fmax=fmax, min_toas=min_toas,
                          plot=plot, verbose=verbose)
 
         if psr is None:
