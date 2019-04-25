@@ -64,11 +64,6 @@ parser.add_argument('-t', '--thin', type=int,
                     action='store',
                     help="thinning factor (keep every [thin]th sample)")
 
-parser.add_argument('-y', '--dm1yr',
-                    dest='use_dm1yr', default=False,
-                    action='store_true',
-                    help="use the DM yearly sinusoid model")
-
 args = parser.parse_args()
 
 outdir = os.path.abspath(args.outdir)
@@ -157,9 +152,8 @@ be = deterministic_signals.PhysicalEphemerisSignal(  # widen prior on jup orbit
 )
 
 # full model
-mod_root = tm + ef + eq + dmgp + rn + gwb
+mod_root = tm + ef + eq + dmgp + dm1yr + rn + gwb
 if args.be: mod_root += be
-if args.use_dm1yr: mod_root += dm1yr
 mod_J1713 = mod_root + dmexp
 mod_ecorr = mod_root + ec
 
