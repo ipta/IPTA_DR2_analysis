@@ -1,8 +1,7 @@
 from __future__ import (absolute_import, division,
-                        print_function, unicode_literals)
-
-import os, json
+                        print_function) # , unicode_literals)
 import numpy as np
+import os, argparse, json
 
 def make_noise_file(psrname, chain, pars, outdir='partim'):
     x = {}
