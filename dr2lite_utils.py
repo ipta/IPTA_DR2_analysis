@@ -171,7 +171,8 @@ def get_dm_bins(toas, dt=7):
 
 
 def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
-               frequency_filter=True, fmax=3000, verbose=True, plot=False):
+               frequency_filter=True, fmax=3000, verbose=True, plot=False,
+               low_freq_cut=False, legacy_cut=False):
     """apply frequency coverage, PTA, and/or other flag filters to pulsar
 
     :param psr:
@@ -216,12 +217,32 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
                               .format(key, val))
             if type(val) is not list:
                 val = [val]
-            flag_conds = [psr.flagvals(key)==v for v in val]
+            if legacy_cut:
+                print('Cutting legacy data!')
+                flag_conds = [psr.flagvals(key)==v for v in val]
+            else:
+                flag_conds = [psr.flagvals(key)==psr.flagvals(key)]
             # if TOA has ANY acceptable value for this flag
             flag_keep.append(np.any(flag_conds, axis=0))
 
     # if TOA satisfies all flags
     idx_flag = np.flatnonzero(np.alltrue(flag_keep, axis=0))
+
+    # filter low frequency observations
+    if low_freq_cut:
+        if verbose: print("Cutting data with frequency < 1000MHz")
+        idx_freq = []
+        idx_freq = list(np.argwhere(psr.freqs < 1000))
+        # check for empty list (i.e. there is no multi-frequency data)
+        if not idx_freq:
+            print("No low-frequency data, returning original psr")
+            return psr
+        # delete
+        idx = np.unique(np.concatenate(idx_freq))
+    else:
+        idx = idx_flag
+
+    psr.deleted[idx] = 0  # mark filtered TOAs as "deleted"
 
     # filter for frequency coverage
     if frequency_filter:
@@ -297,8 +318,8 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
 
 def make_dataset(psrdict, indir, outdir='partim_filtered',
                  frequency_filter=True, bw=1.1, dt=7, fmax=3000,
-                 tmin=0, min_toas=0,
-                 plot=False, verbose=True):
+                 tmin=0, min_toas=0, legacy_cut=False,
+                 plot=False, verbose=True, low_freq_cut=False):
     """make a filtered, DR2-lite style dataset of .par and .tim files
 
     :param psrdict:
@@ -338,9 +359,20 @@ def make_dataset(psrdict, indir, outdir='partim_filtered',
             ff = frequency_filter[pname]
         else:
             ff = frequency_filter
+
+        if pname in ['J0437-4715', 'J1643-1224', 'J1939+2134', 'J1600-3053']:
+            low_freq_cut = True
+        else:
+            low_freq_cut = False
+
+        if pname in ['J1713+0747', 'J0437-4715', 'J1939+2134', 'J2145-0750']:
+            legacy_cut = True
+        else:
+            legacy_cut = False
+
         psr = filter_psr(psr, filter_dict=filters, frequency_filter=ff,
-                         bw=bw, dt=dt, fmax=fmax, min_toas=min_toas,
-                         plot=plot, verbose=verbose)
+                         bw=bw, dt=dt, fmax=fmax, min_toas=min_toas, legacy_cut=legacy_cut,
+                         plot=plot, verbose=verbose, low_freq_cut=low_freq_cut)
 
         if psr is None:
             print("\n")
