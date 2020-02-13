@@ -1,0 +1,288 @@
+FORMAT 1
+MODE 1
+../data/53683.000011.f.000.000.zap 1397.02800000 53683.88333494591460848 13.33100 ncy -fe L_Band -be BON -bw 64 -tobs 3246.4 -tmplt 0034.tpl -gof 1.15 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/53761.000009.f.000.000.zap 1397.98500000 53761.66498805646269687 24.52300 ncy -fe L_Band -be BON -bw 64 -tobs 3246.4 -tmplt 0034.tpl -gof 1.09 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/53781.000005.f.000.000.zap 1398.19000000 53781.61184819323329620 13.40300 ncy -fe L_Band -be BON -bw 64 -tobs 3126.1 -tmplt 0034.tpl -gof 0.979 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/53863.000002.f.000.000.zap 1397.89300000 53863.38794532901259871 1.11200 ncy -fe L_Band -be BON -bw 64 -tobs 3005.9 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/53876.000007.f.000.000.zap 1398.01600000 53876.35554643446944212 24.33200 ncy -fe L_Band -be BON -bw 64 -tobs 3607.1 -tmplt 0034.tpl -gof 1.01 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/53967.000000.f.000.000.zap 1397.87800000 53967.11298798224431295 37.40900 ncy -fe L_Band -be BON -bw 64 -tobs 2525 -tmplt 0034.tpl -gof 0.986 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54021.000011.f.000.000.zap 1398.07700000 54021.96205724806975468 27.42100 ncy -fe L_Band -be BON -bw 64 -tobs 2164.2 -tmplt 0034.tpl -gof 1.04 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54059.000011.f.000.000.zap 1398.07100000 54059.84842237172039603 6.77400 ncy -fe L_Band -be BON -bw 64 -tobs 3246.4 -tmplt 0034.tpl -gof 0.998 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54069.000009.f.000.000.zap 1398.04700000 54069.82113668927340200 10.51200 ncy -fe L_Band -be BON -bw 64 -tobs 3246.4 -tmplt 0034.tpl -gof 1.18 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54170.000012.f.000.000.zap 1398.03100000 54170.55645373213264548 1.92500 ncy -fe L_Band -be BON -bw 64 -tobs 2404.7 -tmplt 0034.tpl -gof 1.03 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54293.000006.f.000.000.zap 1397.99500000 54293.21307965066070267 3.08100 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54306.000002.f.000.000.zap 1397.98000000 54306.17762133239101630 12.18600 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.03 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54310.000005.f.000.000.zap 1397.87900000 54310.16667179782526986 27.05500 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.02 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54311.000003.f.000.000.zap 1398.03500000 54311.16392787691243171 25.48400 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.15 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54427.000009.f.000.000.zap 1397.88200000 54427.84322512328006027 13.17100 ncy -fe L_Band -be BON -bw 64 -tobs 3607.1 -tmplt 0034.tpl -gof 1.08 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54434.000009.f.000.000.zap 1397.79300000 54434.82504364613546244 6.60800 ncy -fe L_Band -be BON -bw 64 -tobs 3727.3 -tmplt 0034.tpl -gof 1.06 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54461.000008.f.000.000.zap 1398.01200000 54461.75031049464925559 14.95700 ncy -fe L_Band -be BON -bw 64 -tobs 3607.1 -tmplt 0034.tpl -gof 1.14 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54495.000001.f.000.000.zap 1397.98600000 54495.66035377345912138 18.98900 ncy -fe L_Band -be BON -bw 64 -tobs 3366.6 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54527.000006.f.000.000.zap 1397.94200000 54527.57783391366444548 20.36900 ncy -fe L_Band -be BON -bw 64 -tobs 2645.2 -tmplt 0034.tpl -gof 1.13 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54528.000004.f.000.000.zap 1398.13900000 54528.56863284462879449 13.30200 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.07 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54543.000006.f.000.000.zap 1398.02500000 54543.52922158037073075 45.26100 ncy -fe L_Band -be BON -bw 64 -tobs 3607.1 -tmplt 0034.tpl -gof 1.01 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54544.000008.f.000.000.zap 1397.91200000 54544.52502561291769112 23.67500 ncy -fe L_Band -be BON -bw 64 -tobs 3847.6 -tmplt 0034.tpl -gof 1.06 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54567.000006.f.000.000.zap 1398.12700000 54567.46351014159172976 23.69600 ncy -fe L_Band -be BON -bw 64 -tobs 3366.6 -tmplt 0034.tpl -gof 0.899 -nbin 2048 -nch 16   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54650.500004.f.000.000.zap 1399.01200000 54650.23615436706649717 13.94600 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.09 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54674.500003.f.000.000.zap 1399.69900000 54674.17016596261682793 4.57100 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1.11 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54717.500000.f.000.000.zap 1399.12200000 54717.04928606435780836 38.92800 ncy -fe L_Band -be BON -bw 128 -tobs 3254.6 -tmplt 0034.tpl -gof 1.1 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54731.500012.f.000.000.zap 1397.93200000 54732.01043349619883216 24.51300 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.15 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54745.500008.f.000.000.zap 1399.23300000 54745.97369375971670635 5.11200 ncy -fe L_Band -be BON -bw 128 -tobs 2772.4 -tmplt 0034.tpl -gof 1.12 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54888.500008.f.000.000.zap 1397.89700000 54888.58483822315970713 8.83300 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.15 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54895.500004.f.000.000.zap 1397.75300000 54895.56516667459652226 13.72400 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 0.951 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54911.500011.f.000.000.zap 1397.83600000 54911.52041113330275124 29.40200 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1.11 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54926.500007.f.000.000.zap 1399.76500000 54926.47961668429438120 1.28800 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.11 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54928.500010.f.000.000.zap 1397.88500000 54928.47454683219854488 7.51900 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.08 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54933.500008.f.000.000.zap 1399.32600000 54933.46062312083780554 31.14100 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.06 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/54964.500009.f.000.000.zap 1399.49100000 54964.37649946974202564 13.08100 ncy -fe L_Band -be BON -bw 128 -tobs 3736.7 -tmplt 0034.tpl -gof 1.01 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55118.500032.f.000.000.zap 1398.49300000 55118.95242627006316738 18.66300 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55121.500036.f.000.000.zap 1399.78700000 55121.95063747468854487 14.42500 ncy -fe L_Band -be BON -bw 128 -tobs 2651.9 -tmplt 0034.tpl -gof 0.923 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55137.500009.f.000.000.zap 1399.72600000 55137.90149702240078966 11.96500 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 0.977 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55177.500017.f.000.000.zap 1399.72200000 55177.79296207212756897 10.81200 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 0.972 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55226.500011.f.000.000.zap 1399.69000000 55226.65612649880026197 18.76200 ncy -fe L_Band -be BON -bw 128 -tobs 3616.2 -tmplt 0034.tpl -gof 1.04 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55291.500007.f.000.000.zap 1409.88100000 55291.48003667537289729 32.54400 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55352.500011.f.000.000.zap 1393.88500000 55352.31432819083011410 5.33400 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 0.997 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55353.500011.f.000.000.zap 1409.86900000 55353.31059489509317828 11.20300 ncy -fe L_Band -be BON -bw 128 -tobs 3736.8 -tmplt 0034.tpl -gof 1.02 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55391.500009.f.000.000.zap 1407.99900000 55391.20714100703927230 10.63600 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1.11 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55392.500009.f.000.000.zap 1408.03900000 55392.20431606079392850 21.44000 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 1.04 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55438.500003.f.000.000.zap 1408.35000000 55438.07982316968197622 13.38000 ncy -fe L_Band -be BON -bw 128 -tobs 3013.6 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55449.500001.f.000.000.zap 1409.88200000 55449.04529001654077192 12.86100 ncy -fe L_Band -be BON -bw 128 -tobs 3254.6 -tmplt 0034.tpl -gof 1.14 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55493.500031.f.000.000.zap 1409.96000000 55493.92237572091179132 8.86400 ncy -fe L_Band -be BON -bw 128 -tobs 3254.6 -tmplt 0034.tpl -gof 1.04 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55531.500029.f.000.000.zap 1409.83400000 55531.82166892250470625 7.44800 ncy -fe L_Band -be BON -bw 128 -tobs 3375.2 -tmplt 0034.tpl -gof 1.23 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55548.500029.f.000.000.zap 1409.89000000 55548.76945772253609235 8.35300 ncy -fe L_Band -be BON -bw 128 -tobs 2772.5 -tmplt 0034.tpl -gof 1.09 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55565.500009.f.000.000.zap 1409.92500000 55565.72297587406588448 21.95500 ncy -fe L_Band -be BON -bw 128 -tobs 2772.5 -tmplt 0034.tpl -gof 1.07 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55634.500009.f.000.000.zap 1409.87700000 55634.53035252832548352 8.24700 ncy -fe L_Band -be BON -bw 128 -tobs 2049.2 -tmplt 0034.tpl -gof 1.13 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55686.500011.f.000.000.zap 1409.90500000 55686.39892057868243924 26.17300 ncy -fe L_Band -be BON -bw 128 -tobs 3857.3 -tmplt 0034.tpl -gof 0.907 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55723.500009.f.000.000.zap 1409.88600000 55723.29724825147172496 12.29500 ncy -fe L_Band -be BON -bw 128 -tobs 3736.8 -tmplt 0034.tpl -gof 0.987 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55737.500013.f.000.000.zap 1409.87800000 55737.25919027548319562 40.25700 ncy -fe L_Band -be BON -bw 128 -tobs 3736.8 -tmplt 0034.tpl -gof 1.11 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55808.500005.f.000.000.zap 1409.88800000 55808.06531461486484957 13.33700 ncy -fe L_Band -be BON -bw 128 -tobs 3254.6 -tmplt 0034.tpl -gof 1.08 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1400 -sys NRT.BON.1400
+../data/55938.500019.f.000.000.zap 1628.33800000 55938.70855813282848601 24.87000 ncy -fe L_Band -be BON -bw 128 -tobs 3841.1 -tmplt 0034.tpl -gof 0.906 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56021.500011.f.000.000.zap 1628.93400000 56021.48272958518498044 13.47300 ncy -fe L_Band -be BON -bw 128 -tobs 3601 -tmplt 0034.tpl -gof 1.09 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56037.500011.f.000.000.zap 1628.73500000 56037.43733755365875027 3.29200 ncy -fe L_Band -be BON -bw 128 -tobs 2880.8 -tmplt 0034.tpl -gof 1.08 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56080.500015.f.000.000.zap 1628.63400000 56080.32029136654137957 25.07000 ncy -fe L_Band -be BON -bw 128 -tobs 3361 -tmplt 0034.tpl -gof 1.1 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56128.500001.f.000.000.zap 1627.87900000 56128.19626902531743440 13.29700 ncy -fe L_Band -be BON -bw 128 -tobs 1800.5 -tmplt 0034.tpl -gof 0.979 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56175.500001.f.000.000.zap 1627.15400000 56175.06033878058880049 31.29400 ncy -fe L_Band -be BON -bw 128 -tobs 3721.1 -tmplt 0034.tpl -gof 1.09 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56219.500027.f.000.000.zap 1627.43000000 56219.93489030738368228 39.82400 ncy -fe L_Band -be BON -bw 128 -tobs 3361 -tmplt 0034.tpl -gof 1.12 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56462.500015.f.000.000.zap 1625.48300000 56462.27238488086651103 36.54500 ncy -fe L_Band -be BON -bw 128 -tobs 3240.9 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56665.500017.f.000.000.zap 1627.12200000 56665.71878253743620490 31.26100 ncy -fe L_Band -be BON -bw 128 -tobs 2760.8 -tmplt 0034.tpl -gof 1.05 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+../data/part2/56705.500011.f.000.000.zap 1627.52300000 56705.61232154066652456 20.82100 ncy -fe L_Band -be BON -bw 128 -tobs 2160.6 -tmplt 0034.tpl -gof 1.01 -nbin 2048 -nch 32   -pta EPTA -group NRT.BON.1600 -sys NRT.BON.1600
+
+200000802.e0 328.000 51770.2048611409468 6.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200000881.e2 328.000 51797.8943287477266 2.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200000894.e2 328.000 51798.1407407801915 2.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200000947.e2 328.010 51832.8453704038797 11.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200001009.e2 328.010 51856.9881944917536 5.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200100679.e0 328.010 52244.0304398463851 4.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200201743.e2 328.010 52336.7148321933094 2.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200202762.e0 328.010 52370.5853356776197 7.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200204207.e7 328.010 52440.4118056025719 6.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+TIME -0.00096518
+200204839.e2 328.010 52462.3502315253550 3.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200206027.e2 328.000 52503.3155092996609 6.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200206067.e2 328.010 52504.2480324432708 1.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+TIME +0.00096518
+200207048.e2 328.010 52532.2245370726861 4.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200207607.e2 328.010 52560.1223379930266 2.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200207636.e2 328.010 52560.8246528088852 2.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200208023.e2 328.010 52581.0707176416812 2.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200208900.e2 328.010 52621.8276620786787 3.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200300336.e2 328.010 52649.9091435524768 10.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200301010.e2 328.010 52671.5888889304964 2.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200301036.e2 328.010 52672.7634259476926 1.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200301207.e2 328.010 52681.7767361421548 0.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200301497.e2 328.010 52698.7224537369987 3.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200301537.e2 328.010 52699.6432870399959 2.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200302134.e2 328.010 52727.5358796723513 6.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200303329.e2 328.000 52773.2365741218079 3.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200303414.e2 328.010 52775.2311343073698 2.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200303984.e2 328.000 52800.2099537527102 2.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200304088.e2 328.000 52804.2728009610128 2.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200304108.e2 328.000 52805.2633102225095 2.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200305303.e2 328.000 52848.2515046699840 3.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200307073.e2 328.000 52914.0199074467759 3.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200307110.e2 328.000 52914.9985205059511 7.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200307193.e2 328.000 52918.0157407779394 4.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200307663.e2 328.000 52936.9699074482892 8.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200308193.e2 328.000 52958.8523148516688 4.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200400547.e2 328.000 53027.7423611423016 4.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200401492.e2 328.000 53062.6840278252301 1.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200401939.e2 328.000 53084.6109954086665 3.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200403201.er 328.000 53133.4452546703299 3.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200403344.er 328.000 53140.4153935615740 2.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+TIME -0.001
+200405664.e0 328.000 53266.0762731787197 1.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200405707.e0 328.000 53267.1013889210610 3.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200406142.e0 328.000 53288.0229166968055 4.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200406185.e0 328.000 53289.0519676407244 7.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200406897.e0 328.000 53335.9170139277384 7.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200500201.e0 328.000 53379.7903935550815 3.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200501883.e0 328.000 53476.5263889337971 2.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200501922.e0 328.000 53477.4998842900238 4.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200502645.e0 328.000 53518.3843750438815 1.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200503106.e0 328.000 53546.3372685518780 0.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328 -sys WSRT.P1.328 -padd 0.212943
+200503748.e0 328.000 53581.2276620811742 1.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200504173.e0 328.000 53609.1437500319736 3.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200504272.e0 328.000 53615.0135417142371 3.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200504752.e0 328.000 53638.0901620683760 1.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200505500.e0 328.000 53672.9111111611627 0.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200506334.e0 328.000 53720.8583333729211 3.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200600265.e0 328.000 53749.7905092962142 2.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200600778.e0 328.000 53776.7467593009254 2.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200600817.e0 328.000 53777.7111111565032 3.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200601343.e0 328.000 53806.6349537524649 1.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200601854.e0 328.000 53840.5295139266430 6.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200602429.e0 328.000 53881.4715278201826 8.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200602472.e0 328.000 53882.4993055973636 7.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200603151.e0 328.000 53917.2398148538546 3.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200603990.e0 328.000 53945.2972222671154 2.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200604596.e0 328.000 53974.2250000478106 2.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200605167.e0 328.000 54001.2107639385920 4.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200606056.e0 328.000 54050.0799768910151 14.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200606475.e0 328.000 54071.9175926333248 5.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200606580.e0 328.000 54077.8987268844125 3.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200700052.e0 328.000 54105.9098380112614 3.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200700090.e0 328.000 54106.8665509636889 3.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200700489.e6 323.750 54134.8445602166058 21.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200700793.e6 323.750 54154.7835648500795 22.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200701173.e6 323.750 54176.7427083751720 18.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200701553.e6 323.750 54196.6701389247324 15.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200701629.e6 323.750 54198.6107639289294 11.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200701822.e6 323.750 54217.6103009685056 14.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200702385.e6 323.750 54246.4846065132949 13.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200702775.e6 323.750 54275.3157407842690 25.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200703482.e6 323.750 54310.3339120818881 20.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200704019.e6 323.750 54337.2913194936364 30.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200704682.e6 323.750 54374.1240741140531 20.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200705141.e6 323.750 54400.0912037606964 16.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200705454.e6 323.750 54421.9487268912380 17.2 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200706073.e6 323.750 54454.8988426432258 17.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200706157.e6 323.750 54457.6986111617322 17.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200800390.e6 323.750 54490.8013889371283 19.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200801029.e6 323.750 54520.5258102396168 23.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200801753.e6 323.750 54554.6776620881185 7.4 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200802156.e6 323.750 54582.4403935725511 6.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200802929.e6 323.750 54638.2223380018725 2.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200803398.e6 323.750 54667.2732639387869 7.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200803838.e6 323.750 54695.0644676310724 2.5 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200804466.e6 323.750 54724.0281250580222 2.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200804947.e6 323.750 54747.9666667047730 4.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200805525.e6 323.750 54775.8431713358093 3.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200806264.e6 323.750 54819.8035880136950 5.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200900191.e6 323.750 54845.6990741228274 11.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200900696.e6 323.750 54876.6351852249234 3.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200901289.e6 323.750 54912.4994213528515 6.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200901875.e6 323.750 54946.4232639337723 10.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200902510.e6 323.750 54978.3361111637906 3.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200902984.e6 323.750 55004.2587963421002 7.3 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200903467.e6 323.750 55032.1857639383968 5.6 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200903967.e6 323.750 55067.0901620895761 2.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200904320.e6 323.750 55093.0343750491408 11.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200904729.e6 323.750 55121.9427083737401 2.8 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+200905969.e6 323.750 55193.7980324248413 5.7 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+201000685.e6 323.750 55227.6525463435150 6.1 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+201001244.e6 323.750 55254.7344907974202 4.9 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+201003625.e6 323.750 55373.4204861550046 8.0 wsrt -i puma1 -B B -r 328 -nbin 64   -pta EPTA -group WSRT.P1.328.C -sys WSRT.P1.328.C -padd 0.212943
+TIME +0.001
+
+200000802.e5 382.000 51770.2048611557107 24.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200000881.e7 382.000 51797.8943287410810 2.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200000894.e7 382.000 51798.1407407734998 6.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200201743.e7 382.010 52336.7148321868738 5.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200202762.e7 382.010 52370.5853356702214 43.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200203416.e7 382.010 52403.3924768943123 26.2 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+TIME -0.00096518
+200204839.e7 382.010 52462.3502315184966 2.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200206027.e7 382.000 52503.3155092926775 3.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200206067.e7 382.010 52504.2480324363359 1.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+TIME +0.00096518
+200207048.e7 382.010 52532.2245370663718 18.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200207607.e7 382.010 52560.1223380080204 3.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200207636.e7 382.010 52560.8246528241636 7.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200208900.e7 382.010 52621.8276620722979 6.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200300336.e7 382.010 52649.9091435678596 8.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200301010.e7 382.010 52671.5888889240648 5.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200301036.e7 382.010 52672.7634259411660 3.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200301207.e7 382.010 52681.7767361575116 3.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200301497.e7 382.010 52698.7193364551361 9.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200301537.e7 382.010 52699.6432870550798 5.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200302134.e7 382.010 52727.5358796656658 10.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200303329.e7 382.000 52773.2365741147060 4.2 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200303414.e7 382.010 52775.2311343005638 5.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200303984.e7 382.000 52800.2099537453527 9.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200304088.e7 382.000 52804.2728009758459 13.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200304108.e7 382.000 52805.2633102155235 12.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200305303.e7 382.000 52848.2515046629696 5.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200305882.e7 382.000 52867.1923611505017 6.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200307193.e7 382.000 52918.0157407712856 30.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200307663.e7 382.000 52936.9699074417915 16.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+TIME -0.001
+200405664.e7 374.000 53266.0762731940207 2.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200405707.e7 374.000 53267.1013889362236 1.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200406142.e7 374.000 53288.0229167120678 10.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200406185.e7 374.000 53289.0519676342283 7.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200406897.e7 374.000 53335.9170139213365 5.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200500201.e7 374.000 53379.7903935489350 6.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200501883.e7 374.000 53476.5263889272566 11.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200501922.e7 374.000 53477.4998843050550 4.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200502645.e7 374.000 53518.3843750370981 1.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200503106.e7 374.000 53546.3372685667697 8.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382 -sys WSRT.P1.382 -padd 0.218016
+200503748.e7 374.000 53581.2276620745392 9.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200504173.e7 374.000 53609.1437500469410 6.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200504752.e7 374.000 53638.0901620837337 2.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200505500.e7 374.000 53672.9111111548768 1.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200506334.e7 374.000 53720.8583333668900 5.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200600265.e7 374.000 53749.7905092899992 3.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200600778.e7 374.000 53776.7467592948088 4.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200600817.e7 374.000 53777.7111111500963 3.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200601343.e7 374.000 53806.6349537461660 2.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200601854.e7 374.000 53840.5295139202669 13.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200602429.e7 374.000 53881.4715278134321 10.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200602472.e7 374.000 53882.4993055903283 6.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200603151.e7 374.000 53917.2398148469592 5.2 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200603990.e7 374.000 53945.2972222604669 2.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200604596.e7 374.000 53974.2250000410701 4.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200605167.e7 374.000 54001.2107639320142 10.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200606056.e7 374.000 54050.0799768851837 25.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200606475.e7 374.000 54071.9175926271423 7.2 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200606580.e7 374.000 54077.8987268999699 5.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200700052.e7 374.000 54105.9098380051485 6.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200700090.e7 374.000 54106.8665509574400 7.2 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200700489.e1 367.500 54134.8445602156433 10.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200700793.e1 367.500 54154.7835648498690 13.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200701173.e1 367.500 54176.7427083748152 17.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200701553.e1 367.500 54196.6701389244070 11.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200701629.e1 367.500 54198.6107639284999 8.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200701822.e1 367.500 54217.6103009675379 9.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200703482.e1 367.500 54310.3339120806874 20.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200704019.e1 367.500 54337.2913194936306 22.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200704682.e1 367.500 54374.1240741138081 20.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200705141.e1 367.500 54400.0912037602040 14.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200705454.e1 367.500 54421.9487268912972 19.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200706073.e1 367.500 54454.8988426439592 11.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200706157.e1 367.500 54457.6986111619979 9.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200800390.e1 367.500 54490.8013889366108 22.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200801029.e1 367.500 54520.5258102403024 14.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200801753.e1 367.500 54554.6776620877345 9.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200802156.e1 367.500 54582.4403935726333 13.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200802929.e1 367.500 54638.2223380013544 8.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200803398.e1 367.500 54667.2732639381765 6.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200803838.e1 367.500 54695.0644676308164 2.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200804466.e1 367.500 54724.0281250578352 3.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200804947.e1 367.500 54747.9666667047276 9.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200805525.e1 367.500 54775.8431713359029 4.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200806264.e1 367.500 54819.8035880136172 5.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200900191.e1 367.500 54845.6990741225935 20.7 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200900696.e1 367.500 54876.6351852249038 5.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200901289.e1 367.500 54912.4994213527536 8.8 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200901875.e1 367.500 54946.4232639336760 8.9 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200902510.e1 367.500 54978.3361111633426 3.6 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200902984.e1 367.500 55004.2587963415711 8.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200903467.e1 367.500 55032.1857639379894 9.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200903967.e1 367.500 55067.0901620894162 9.0 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200904320.e1 367.500 55093.0343750489969 15.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200904729.e1 367.500 55121.9427083735481 6.5 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+200905969.e1 367.500 55193.7980324249931 5.3 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+201000685.e1 367.500 55227.6525463434602 11.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+201001244.e1 367.500 55254.7344907978294 14.1 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+201003625.e1 367.500 55373.4204861542913 5.4 wsrt -i puma1 -B B -r 382 -nbin 64   -pta EPTA -group WSRT.P1.382.C -sys WSRT.P1.382.C  -padd 0.218016
+TIME +0.001
