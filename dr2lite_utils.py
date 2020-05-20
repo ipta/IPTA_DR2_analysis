@@ -181,7 +181,7 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
     :param dt:
         DM bin width (days)
     :param filter_dict:
-        dictionary of filters to apply
+        dictionary of filters to apply based on TOA flags
         The dictionary has keys that correspond to TOA flags. The values are
         a single or list of acceptable flagvals, e.g.
 
@@ -209,8 +209,8 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
     print('Working on PSR {}'.format(psr.name))
 
     # Flag filtering
-    flag_keep = []
     if filter_dict:
+        flag_keep = []
         for key, val in filter_dict.items():
             if verbose: print('Keeping TOAs corresponding to {} {}'
                               .format(key, val))
@@ -220,8 +220,11 @@ def filter_psr(psr, bw=1.1, dt=7, filter_dict=None, min_toas=10,
             # if TOA has ANY acceptable value for this flag
             flag_keep.append(np.any(flag_conds, axis=0))
 
-    # if TOA satisfies all flags
-    idx_flag = np.flatnonzero(np.alltrue(flag_keep, axis=0))
+        # if TOA satisfies all flags
+        idx_flag = np.flatnonzero(np.alltrue(flag_keep, axis=0))
+    else:
+        # keep all TOAs
+        idx_flag = np.arange(psr.nobs)
 
     # filter for frequency coverage
     if frequency_filter:
